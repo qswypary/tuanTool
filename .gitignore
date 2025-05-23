@@ -1,0 +1,47 @@
+# Python相关忽略
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 环境配置文件
+env/
+venv/
+ENV/
+.venv/
+.virtualenv/
+
+# VS Code IDE 配置文件
+.vscode/
+
+# Qt Designer 的备份文件（如果有的话）
+*.bak
+
+# macOS 系统文件
+.DS_Store
+
+# PyQt 项目可能产生的临时文件
+*.log
+
+# 本地开发设置（避免版本控制）
+.idea/
+*.swp
+*.swo
+
+# 任何生成的文件，比如编译的资源或二进制文件
+*.qrc
+*.ts
+*.qm
+
+# 如果项目中生成了图片缓存或其他临时数据
+thumbs.db
+*.png
+*.jpg
+*.jpeg
+
+# 忽略的项目特定文件或目录（可根据实际需求调整）
+resources/temp/
+build/
+dist/
+
+# 忽略用户定制的配置文件
+*.user
