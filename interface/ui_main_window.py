@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# Form implementation generated from reading ui file 'ui/main_window.ui'
+# Form implementation generated from reading ui file 'design/main_window.ui'
 #
 # Created by: PyQt5 UI code generator 5.15.9
 #
@@ -17,6 +17,9 @@ class Ui_MainWindow(object):
         MainWindow.resize(800, 600)
         self.centralwidget = QtWidgets.QWidget(MainWindow)
         self.centralwidget.setObjectName("centralwidget")
+        self.qrCodeLabel = QtWidgets.QLabel(self.centralwidget)
+        self.qrCodeLabel.setGeometry(QtCore.QRect(0, 0, 480, 480))
+        self.qrCodeLabel.setObjectName("qrCodeLabel")
         MainWindow.setCentralWidget(self.centralwidget)
         self.menubar = QtWidgets.QMenuBar(MainWindow)
         self.menubar.setGeometry(QtCore.QRect(0, 0, 800, 21))
@@ -32,3 +35,4 @@ class Ui_MainWindow(object):
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
         MainWindow.setWindowTitle(_translate("MainWindow", "MainWindow"))
+        self.qrCodeLabel.setText(_translate("MainWindow", "图片"))
